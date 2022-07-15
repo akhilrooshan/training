@@ -1,0 +1,10 @@
+git status
+git add "filename"
+git commit -m "comments" 
+git status
+git branch -M main
+git remote add origin https://github.com/akhilrooshan/training.git
+git push -u origin  main
+#username:
+#password:"your access token key"
+
