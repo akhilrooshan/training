@@ -1,17 +1,22 @@
 #login-form-wrap {
   background-color: #fff;
   width: 35%;
+  height:10%;
   margin: 30px auto;
   text-align: center;
-  padding: 70px 25px 90px 25px;
+  padding: 10px 25px 90px 25px;
   border-radius: 4px;
   box-shadow: 0px 20px 30px 10px rgba(0, 0, 0, 0.3);
+}
+.img{
+  padding:10px 10px 10px 10px;
 }
 
 h3{
     font-family:sans-serif;
     font-weight:lighter;
-    font-size: 30px;
+        font-size: 30px;
+   
   
 
 }
@@ -19,13 +24,36 @@ h3{
 input[type="submit"] {
   border: none;
   background-color: #0673ad;
-  width:460px;
-  padding:14px 20px ;
-  margin:8px 0;
+  width:405px;
+  padding:10px 19px ;
+  margin:1px 0;
   border-radius:4px;
   cursor:pointer;
   margin-left:3px;
   
+
+}
+.input-container {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  width: 90%;
+  margin-bottom: 15px;
+    margin-left:28px;
+  
+}
+
+.icon {
+  padding: 10px;
+  background: #dcd7c5;
+  color: white;
+  min-width: 50px;
+  text-align: center;
+}
+
+.input-field {
+  width: 100%;
+  padding: 10px;
+  outline: none;
 
 }
 input[type=text],select{
@@ -34,17 +62,21 @@ padding:12px 12px;
 
 display: :inline-block;
 border:1px solid #ccc;
-border-radius:10px;
+border-radius:0px 5px 5px 0px;
 box-sizing:border-box;
 }
 
 input[type=password],select{
-  width:80%;
-  padding:12px 12px;
-  margin:8px 0;
-  display: :inline-block;
-  border:1px solid #ccc;
-  border-radius:10px;
-  box-sizing:border-box;
-  }
-  
+width:80%;
+padding:12px 12px;
+
+display: :inline-block;
+border:1px solid #ccc;
+border-radius:0px 5px 5px 0px;
+box-sizing:border-box;
+}
+
+.input-field:focus {
+  border: 2px solid #dcd7c5;
+}
+
