@@ -8,7 +8,6 @@
   padding: 10px 25px 90px 25px;
   border-radius: 4px;
   box-shadow: 0px 20px 30px 5px rgba(0, 0, 0, 0.3);
-    align:centre;
 }
 .img{
   padding:10px 10px 10px 10px;
@@ -21,6 +20,11 @@ h3{
    
   
 
+}.test{
+    
+    border-width: :thin;
+    border-style: solid;
+    border-color: black;
 }
 
 input[type="submit"] {
@@ -59,9 +63,10 @@ input[type="submit"] {
 
 }
 input[type=text],select{
-width:80%;
+width:90%;
 padding:12px 12px;
 height:35px;
+  margin-right:20px;
     
     
 display: :inline-block;
@@ -71,10 +76,11 @@ box-sizing:border-box;
 }
 
 input[type=password],select{
-width:80%;
+width:87%;
 padding:12px 12px;
 height:35px;
-    
+margin-right:20px;
+
 display: :inline-block;
 border:1px solid #ccc;
 border-radius:0px 5px 5px 0px;
