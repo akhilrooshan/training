@@ -1,6 +1,6 @@
 let player={
-    name="akhil"
-    chips=145
+    name:"akhil",
+    chips:145
 }
 let playerId=document.getElementById("player")
 let cards=[]
