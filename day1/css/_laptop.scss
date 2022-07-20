@@ -39,12 +39,12 @@
   input[type="submit"] {
     border: none;
     background-color: #0673ad;
-    width:87%;
+    width:85%;
     padding:10px 19px ;
     margin:1px 0;
     border-radius:4px;
     cursor:pointer;
-    margin-left:3px;
+    
     
   
   }
@@ -59,11 +59,13 @@
   
   .icon {
     padding: 10px;
-    background: #dcd7c5;
+    background: #e9ecef;
     color: white;
-    min-width: 50px;
+    min-width: 20px;
     text-align: center;
-    border-radius:5px 0px 0px 5px;
+    border-radius:7px 0px 0px 7px;
+    border:1px solid #ccc;
+    max-height: 13px;
   }
   
   .input-field {
@@ -86,7 +88,7 @@
   }
   
   input[type=password],select{
-  width:87%;
+  width:90%;
   padding:12px 12px;
   height:35px;
   margin-right:20px;
