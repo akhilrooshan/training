@@ -1,7 +1,7 @@
 @media (max-width: 2560px) {
   #container {
     height: 100vh;
-    background-color: #6790ff;
+    background-color: #4098fe;
     display: grid;
     place-content: center;
     justify-content: center;
@@ -91,7 +91,7 @@
 @media (max-width: 1440px) {
   #container {
     height: 100vh;
-    background-color: #6790ff;
+    background-color: #4098fe;
     display: grid;
     place-content: center;
   }
@@ -174,7 +174,7 @@
 @media (max-width: 426px) {
   #container {
     height: 100vh;
-    background-color: #6790ff;
+    background-color: #4098fe;
     display: grid;
     place-content: center;
     justify-content: center;
@@ -207,7 +207,6 @@
   input[type=submit] {
     border: none;
     background-color: #0673ad;
-    width: 10%;
     padding: 10px 19px;
     margin: 1px 0;
     border-radius: 4px;
@@ -261,7 +260,7 @@
 @media (max-width: 768px) {
   #container {
     height: 100vh;
-    background-color: #6790ff;
+    background-color: #4098fe;
     display: grid;
     place-content: center;
   }
