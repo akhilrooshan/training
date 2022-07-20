@@ -1,0 +1,55 @@
+$color1: #cdb4db;
+$color2:#fff1e6;
+$color3:#52b788;
+$color4:#bee1e6;
+
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+
+
+
+
+    body{
+    font-family: sans-serif;
+    font-size: 35px;
+
+}
+}
+
+.container{
+    height:100vh;
+
+ //   display: flex;
+ //   justify-content: center;
+ //   align-items:center;
+
+
+ display: grid;
+ place-content:center;
+ background-color: $color1;
+}
+
+
+#size{
+
+    position:absolute;
+    top:60%;
+    left:50%;
+    transform: translateX(-50%);
+    color:red;
+
+
+}
+
+
+{
+    
+}
+@media screen (min-width:50px)
+{
+    .container{
+        background:$color2;
+    }
+}
