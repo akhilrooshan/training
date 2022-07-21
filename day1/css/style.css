@@ -7,8 +7,6 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    border-left: 10px solid black;
-    border-right: 10px solid black;
   }
   #login-form-wrap {
     background-color: #fff;
@@ -91,13 +89,15 @@
   }
 }
 @media (max-width: 1440px) {
+  body {
+    border-left: 10px solid black;
+    border-right: 10px solid black;
+  }
   #container {
     height: 100vh;
     background-color: #aaffff;
     display: grid;
     place-content: center;
-    border-left: 10px solid black;
-    border-right: 10px solid black;
   }
   #login-form-wrap {
     background-color: #fff;
@@ -115,11 +115,6 @@
     font-family: sans-serif;
     font-weight: lighter;
     font-size: 30px;
-  }
-  .test {
-    border-width: thin;
-    border-style: solid;
-    border-color: black;
   }
   input[type=submit] {
     border: none;
