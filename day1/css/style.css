@@ -1,12 +1,14 @@
 @media (max-width: 2560px) {
   #container {
     height: 100vh;
-    background-color: #4098fe;
+    background-color: #aaffff;
     display: grid;
     place-content: center;
     justify-content: center;
     align-items: center;
     text-align: center;
+    border-left: 10px solid black;
+    border-right: 10px solid black;
   }
   #login-form-wrap {
     background-color: #fff;
@@ -52,7 +54,7 @@
   .icon {
     padding: 10px;
     background: #e9ecef;
-    color: white;
+    color: black;
     min-width: 20px;
     text-align: center;
     border-radius: 7px 0px 0px 7px;
@@ -91,9 +93,11 @@
 @media (max-width: 1440px) {
   #container {
     height: 100vh;
-    background-color: #4098fe;
+    background-color: #aaffff;
     display: grid;
     place-content: center;
+    border-left: 10px solid black;
+    border-right: 10px solid black;
   }
   #login-form-wrap {
     background-color: #fff;
@@ -135,7 +139,7 @@
   .icon {
     padding: 10px;
     background: #e9ecef;
-    color: white;
+    color: black;
     min-width: 20px;
     text-align: center;
     border-radius: 7px 0px 0px 7px;
@@ -174,11 +178,13 @@
 @media (max-width: 426px) {
   #container {
     height: 100vh;
-    background-color: #4098fe;
+    background-color: #aaffff;
     display: grid;
     place-content: center;
     justify-content: center;
     align-items: center;
+    border-left: 5px solid black;
+    border-right: 5px solid black;
   }
   #login-form-wrap {
     background-color: #fff;
@@ -221,7 +227,7 @@
   .icon {
     padding: 10px;
     background: #e9ecef;
-    color: white;
+    color: black;
     min-width: 20px;
     text-align: center;
     border-radius: 7px 0px 0px 7px;
@@ -260,9 +266,11 @@
 @media (max-width: 768px) {
   #container {
     height: 100vh;
-    background-color: #4098fe;
+    background-color: #aaffff;
     display: grid;
     place-content: center;
+    border-left: 10px solid black;
+    border-right: 10px solid black;
   }
   #login-form-wrap {
     background-color: #fff;
@@ -305,7 +313,7 @@
   .icon {
     padding: 10px;
     background: #e9ecef;
-    color: white;
+    color: black;
     min-width: 20px;
     text-align: center;
     border-radius: 7px 0px 0px 7px;
@@ -340,4 +348,7 @@
   .input-field:focus {
     border: 2px solid #dcd7c5;
   }
+}
+.fa fa-user icon {
+  color: black;
 }/*# sourceMappingURL=style.css.map */

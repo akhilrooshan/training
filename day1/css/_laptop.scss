@@ -6,6 +6,8 @@
     background-color:$color1;
     display:grid;
     place-content:center;
+    border-left: 10px solid black;
+    border-right: 10px solid black;
 }
 #login-form-wrap {
     background-color:$color2;
@@ -60,7 +62,7 @@
   .icon {
     padding: 10px;
     background: #e9ecef;
-    color: white;
+    color: black;
     min-width: 20px;
     text-align: center;
     border-radius:7px 0px 0px 7px;
