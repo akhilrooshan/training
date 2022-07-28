@@ -1,0 +1,33 @@
+.parent{
+    display: flex;
+    flex-direction: column;
+    border:1px solid black;
+}
+
+/*header section*/
+
+header{
+    border:1px solid black;
+    width:100%;
+    height:auto;
+    background-image: url("../images/mainbg.jpg");
+    
+}
+
+nav ul{
+    list-style: none;
+    justify-content: space-between;
+}
+
+
+/*article section*/
+article{
+    border:1px solid black;
+
+}
+footer{
+    border:1px solid black;
+
+}
+
+
