@@ -1,33 +1,260 @@
+
+body{
+    font-size: 0.70rem;
+}
 .parent{
     display: flex;
     flex-direction: column;
-    border:1px solid black;
+    background-image: url("../images/mainb.jpg");
+    object-fit: cover;
 }
 
 /*header section*/
 
 header{
-    border:1px solid black;
     width:100%;
     height:auto;
-    background-image: url("../images/mainbg.jpg");
+ 
     
+}
+nav {
+    width:100%;
 }
 
 nav ul{
+    margin: 0% 10%;
     list-style: none;
-    justify-content: space-between;
+    justify-content: center;
+    width:100%;
+
+}
+link-p{
+    size:100%;
+}
+
+.nav-link
+{
+    color:black;
+}
+
+.nav-logo{
+    width: 9em;
+    height: auto;
+    margin-left: 5rem;
+}
+
+#nav-top{
+    padding-bottom: 30em;
+}
+
+.center{
+    text-align: center;
+    position:relative;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -90%);
+    background: rgba(5, 120, 196, 0.411);
+    width: 75%;
+    max-width: 925px;
+    padding: 1% 0;
+    box-sizing: border-box;
+    
+}
+
+
+.center .bttn-1{
+    padding: 6px 35px;
+    background-color: #88ceba;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+    color: #fff;
+    font-size: 12px;
+    border-radius: 1px;
+    transition: all .3s ease-in-out;
+}
+.center .bttn-1:hover{
+background-color: #ff0000;
+}
+.box-para{
+    color: white;
+}
+
+
+h1 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+.h1-col{
+    color: white;
+}
+
+.h2-col{
+    padding: 2px 0 29px 0;
+    color: #ffffff;
+    font-weight: normal;
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
 }
 
 
 /*article section*/
-article{
-    border:1px solid black;
 
-}
+
+.contact  {
+    width: calc(90% - 50px);
+    border-bottom: 2px solid #eee;
+    border-left: 2px solid #eee;
+    padding: 35px 55px;
+    position: relative;
+    z-index: 333;
+    background: #fff;
+    
+  }
+  
+  .contact .title h3 {
+    padding-bottom: 30px;
+    font-size: 20px;
+    color: #133469
+  }
+  
+  .contact .title h3 span:last-of-type {
+    font-weight: normal;
+    color: #2b3944;
+  }
+  
+  .contact .title h3:after {
+    content: "";
+    border-bottom: 2.5px solid #88ceba;
+    width: 100px;
+    height: 20px;
+    display: block
+  }
+  
+  .contact .paragraph {
+    width: 60%;
+    display: inline-block;
+    
+  }
+  
+  .contact p {
+    font-size: 14px;
+    line-height: 20px;
+    color: #999
+  }
+  
+  .contact .paragraph p:last-of-type {
+    padding-top: 10px
+  }
+  
+  .contact .paragraph p:last-of-type span {
+    font-weight: bold;
+    cursor: pointer;
+    color: #133469
+  }
+  
+  .contact .info {
+    width: 35%;
+    float: right;
+    padding: 0;
+    margin: 0
+  }
+  
+  .contact .info p:first-of-type {
+    color: #133469;
+    font-weight: bold;
+    font-size: 14px
+  }
+  
+  .contact .info p {
+    padding-bottom: 16px;
+  }
+  
+  .contact .info p i {
+    color: #88ceba;
+    padding-right: 10px;
+    font-size: 15px
+  }
+  
+  .con-contact {
+    position: relative
+  }
+  
+  .con-contact:before {
+    content: "";
+    position: absolute;
+    top: -60px;
+    right: 50px;
+    z-index: 332;
+    width: 50%;
+    height: 100%;
+    background-image: url("../images/1.webp")
+  }
+
+
+  @media(max-width: 580px) {
+    .contact .info {
+      width: 40%;
+      text-align: right
+    }
+  }
+  
+  @media(max-width: 500px) {
+    .contact  {
+      padding: 35px 25px;
+      width: 100%
+    }
+      
+    .contact .paragraph, .contact .info {
+      float: none;
+      width: 100%
+    }
+    
+    .contact .paragraph {
+      padding-bottom: 30px
+    }
+    
+    .contact .info {
+      text-align: left
+    }
+    
+    .con-contact:before {
+      right: 0;
+      
+    }
+    
+  }
+  
+  
+  .con-contact:after {
+    content:"";
+    width: 100%;
+    min-width: 1030px;
+    height: 230px;
+    background-color: #f2f9f9;
+    position: absolute;
+    top: 90px;
+    right: 0px
+  }              
+
 footer{
     border:1px solid black;
 
 }
 
-
+#sqr-img1{
+    width:30em;
+    margin-left: 55em;
+    margin-top: -8em;
+}
