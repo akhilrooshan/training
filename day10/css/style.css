@@ -38,7 +38,6 @@ body {
 
 .header .container .center h2:after {
   content: "";
-  border-bottom: 2.5px solid #88ceba;
   width:6em;
   height:1em;
   position: absolute;
@@ -207,15 +206,16 @@ body {
 }
 
 
-
-
 .section4 {
-  background-image: url('../images/be.webp');
-  background-size: cover;
-  min-height: 500px;
-  position: relative;
-  padding: 75px 40px;
+
+  min-height: 600px;
+  background-image: url("../images/23.webp");
+  object-fit: cover;
+  z-index:1;
+  
 }
+
+
 
 .section4 .container {
   padding: 0
@@ -225,150 +225,54 @@ body {
   
   background-color: rgba(19, 52, 105, .6);
   height: auto;
-  padding: 50px 80px
+  padding: 4em 3em;
+  z-index: 1;
 }
 
-.section4 .container .queries .answers {
-  width: 40%
-}
 
-.section4 .container .queries div + div {
-  margin-top: 20px
-}
-
-.section4 .container .queries .answers h3 {
-  color: white;
-  font-weight: normal;
-  font-size: 18px
-}
-
-.section4 .container .queries .answers p {
-  color: #e3e8ef;
-  font-size: 13px;
-  line-height: 20px
-}
-
-.section4 .container .queries div:first-of-type:after,
-.section4 .container .queries div:nth-of-type(2):after{
-  content: "";
-  border-bottom: 2.5px solid #88ceba;
-  width: 100px;
-  height: 20px;
-  display: block;
-  margin-top: -3px
-}
-
-@media(max-width: 400px) {
-  
-  .section4 {
-    padding: 75px 10px
-  }
-}
-@media(max-width: 400px) {
-    
-    .section4 {
-      padding: 75px 10px
-    }
-  }
-  
-
-.contact-box {
-  background-color: #fff;
-  width: 20em;
-  padding: 4em 1em 0;
-  box-shadow: -11px 13px 24px -7px rgba(0,0,0,0.49);
-position: absolute;
-  top: 100px;
-  right: 110px
-  
-}
-
-.contact-box form {
-  margin: 0 2em;
-  color: #2c3e50
-}
-
-.contact-box h2 {
+.h1c{
   color: #133469;
-  margin-bottom: 1em;
-  text-align: center
-}
-
-.contact-box p {
-  font-size: 1em;
-  margin-bottom: 1em;
-}
-
-.contact-box input {
-  margin-bottom: 1em;
-}
-
-.contact-box input[type=email],
-.contact-box input[type=text],
-.contact-box input[type=tel]{
-  display: block;
-  padding: 0.6em 1.5em;
-  width: 100%;
-  border: 1.4px solid #ecf0f1;
-  border-radius: 3px
-}
-
-.contact-box textarea {
-  display: block;
-  width: 100%;
-  height: 100px;
-  border: 1.4px solid #ecf0f1;
-  padding: 0.6em 1.5em;
-  border-radius: 2px
-}
-
-
-.contact-box form #no {
-  text-align: right
-}
-
-.contact-box form input[type=radio] + label {
-  font-size: 1em;
-  margin-right: 8rem;
-}
-
-.contact-box div {
   text-align: center;
-  
-}
-
-.contact-box div input {
-  width: 150px;
-  padding: 7px 0;
-  margin-top: 20px;
-  background-color: #88ceba;
-  border: none;
-  border-radius: 1px;
-  color: #fff;
-  font-weight: bold;
-  font-size: 12px;
-  transition: .3s all ease-in-out
-}
-
-.contact-box div input:hover {
-  background-color: #133469
 }
 
 
-@media(max-width: 812px) {
-  .contact-box {
-    top: 120px;
-    right: 0;
-  }
+.cardform{
+
+ 
+position: absolute;
+  top: 240%;
+  right: 15%;
+  z-index: 2;
+
+}
+@media(max-width:1024px)
+{
+  .cardform {
+    position: absolute;
+    top: 285%;
+    right: 15%;
+    
+}
+}
+
+@media(max-width:768px)
+{
+  .cardform {
+    position: static;
+    width: 90%;
+    align-items: center;
+    justify-content: center;
+    left:10%;
+}
 }
 
 @media(max-width: 666px) {
-  .contact-box {
+  .cardform {
     position: static;
     width: 100%
   }
   
-  .section4 .container .queries .answers {
+  .section4 .container .queries  {
   width: 100%
  }
 }
@@ -378,4 +282,9 @@ position: absolute;
   padding: 50px 40px
  }
   
+}
+
+
+.h2c{
+  color: #133469;
 }
