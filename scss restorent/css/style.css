@@ -13,7 +13,7 @@
   grid-template-columns: repeat(auto-fit, 20rem);
   justify-content: center;
   gap: 2rem;
-  margin-top: 55%;
+  margin-top: 60%;
   padding-top: 5%;
 }
 #main .wrapper-grid .container {
