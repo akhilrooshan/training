@@ -1,0 +1,102 @@
+:root {
+  --clr-primary: #651fff;
+  --clr-gray: #37474f;
+  --clr-gray-light: #b0bec5;
+}
+
+#main {
+  background: linear-gradient(335deg, rgb(133, 230, 162) 0%, rgb(255, 228, 168) 100%);
+  background-attachment: fixed;
+}
+#main .wrapper-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 20rem);
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 49%;
+  padding-top: 5%;
+}
+#main .wrapper-grid .container {
+  overflow: hidden;
+  box-shadow: 0px 2px 8px 0px var(--clr-gray-light);
+  background-color: white;
+  text-align: center;
+  border-radius: 1rem;
+  position: relative;
+  margin: 0.5rem;
+}
+#main .wrapper-grid .banner-img {
+  position: absolute;
+  background-image: url("../images/bg.png");
+  height: 10rem;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#main .wrapper-grid .profile-img {
+  width: 8rem;
+  -webkit-clip-path: circle(60px at center);
+          clip-path: circle(60px at center);
+  margin-top: 4.5rem;
+  height: 8rem;
+}
+#main .wrapper-grid .name {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+#main .wrapper-grid .description {
+  margin: 1rem 2rem;
+  font-size: 0.9rem;
+}
+#main .wrapper-grid .btn {
+  width: 100%;
+  border: none;
+  font-size: 1rem;
+  font-weight: bold;
+  color: white;
+  padding: 1rem;
+  background-color: var(--clr-primary);
+}
+#main .home-grid {
+  position: absolute;
+  top: 20%;
+  left: 5%;
+  width: 80%;
+}
+#main .home-grid .cappacino {
+  width: 15rem;
+  height: 15rem;
+  position: absolute;
+}
+#main .home-grid #textbr {
+  border-radius: 10px 0px 10%;
+}
+@media (max-width: 1024px) {
+  #main .wrapper-grid {
+    margin-top: 76%;
+  }
+}
+@media (max-width: 768px) {
+  #main .wrapper-grid {
+    margin-top: 120%;
+  }
+}
+@media (max-width: 425px) {
+  #main .wrapper-grid {
+    margin-top: 190%;
+  }
+  #main .home-grid .cappacino {
+    display: none;
+  }
+}
+@media (max-width: 375px) {
+  #main .wrapper-grid {
+    margin-top: 230%;
+  }
+}
+@media (max-width: 320px) {
+  #main .wrapper-grid {
+    margin-top: 322%;
+  }
+}/*# sourceMappingURL=style.css.map */
