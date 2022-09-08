@@ -10,15 +10,9 @@ greeting_name=greeting_name.replace(/l/g,"1");
 
 greeting_name=greeting_name.replace(/o/g,"0");
 
+let regex = /.{1,1}/ig
 
-function reverseString(str) {
-    if (str === "") 
-      return "";
-    
-    else
-      return reverseString(str.substr(1)) + str.charAt(0);
+let result = greeting_name.match(regex);
+let reversed = result.reverse().join("");
 
-}
-
-      console.log(reverseString(greeting_name));
-
+console.log(reversed);
