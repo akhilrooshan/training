@@ -1,15 +1,14 @@
 
 var greeting="hello ";
 let _name="world";
-alert(greeting+_name);
+//alert(greeting+_name);
    
 let greeting_name=greeting+_name;
 
-greeting_name=greeting_name.replace("l","1");
-greeting_name=greeting_name.replace("l","1");
-greeting_name=greeting_name.replace("l","1");
-greeting_name=greeting_name.replace("o","0");
-greeting_name=greeting_name.replace("o","0");
+greeting_name=greeting_name.replace(/l/g,"1");
+
+
+greeting_name=greeting_name.replace(/o/g,"0");
 
 
 function reverseString(str) {
