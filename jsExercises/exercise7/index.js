@@ -1,15 +1,30 @@
-function sepEach(arr)
-{
-    console.log("**********");
+function sepEach(arr) {
 
-    for (let i=0;i<arr.length;i++)
-    {
-        console.log("\n * "+arr[i]+" *" );
+    function makeSpace(str, len, char) {
+        if (str.length < len) {
+
+            return makeSpace(str + char, len, char);
+        }
+        else {
+            return str;
+        }
     }
-    console.log("\n **********");
-}
+    let size = arr.map((str) => {
+        return str.length;
+    })
+        .reduce((a, b) => {
+            return Math.max(a, b);
+        });
+        console.log(size)
 
-
-
-str=["ara","mds","ras"];
-sepEach(str);
+        let line = makeSpace('', size + 5, '*');
+    
+        arr = arr.map((digit) => {
+            return '* ' + makeSpace(digit, size, ' ') + ' *';
+        })
+        arr.unshift(line);
+        arr.push(line);
+    
+        return arr.join('\n');;
+    }
+    console.log(sepEach(["Hello", "World", "in", "a", "fhhhhhrame"]));
