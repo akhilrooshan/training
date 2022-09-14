@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>TTE</title>
+</head>
+<body>
+    <div class="main">
+        <h2>Tic-Tac-Toe</h2>
+        <p>Player 1 : S</p>
+        <p>Player 2 : O</p>
+        <table>
+            <tr>
+                <td>
+                    <input type="text" id="box1" onclick=" bttnDisable1(); isMatching();" readonly>
+                </td>
+                <td>
+                    <input type="text" id="box2" onclick=" bttnDisable2(); isMatching();" readonly>
+                </td>
+                <td>
+                    <input type="text" id="box3" onclick=" bttnDisable3(); isMatching();" readonly>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="text" id="box4" onclick=" bttnDisable4(); isMatching();" readonly>
+                </td>
+                <td>
+                    <input type="text" id="box5" onclick=" bttnDisable5(); isMatching();" readonly>
+                </td>
+                <td>
+                    <input type="text" id="box6" onclick=" bttnDisable6(); isMatching();" readonly>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="text" id="box7" onclick=" bttnDisable7(); isMatching();" readonly>
+                </td>
+                <td>
+                    <input type="text" id="box8" onclick=" bttnDisable8(); isMatching();" readonly>
+                </td>
+                <td>
+                    <input type="text" id="box9" onclick=" bttnDisable9(); isMatching();" readonly>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3" class="resetCol">
+                    <button onclick="resetGame()" class="bttnRes">RESET</button>
+                </td>
+            </tr>
+        </table>
+        <p id="show"></p>
+    </div>
+</body>
+<script src="js/index.js"></script>
+</html>
