@@ -183,7 +183,7 @@ box9=document.getElementById("box9").value;
         document.getElementById("box7").disabled = true;
         document.getElementById("box8").disabled = true;
         document.getElementById("box9").disabled = true;
-         window.alert('Hurray.We got a 3 0 in a row.Player S won');
+         window.alert('Hurray.We got a 3 0 in a row.Player 0 won');
     }
  
    
