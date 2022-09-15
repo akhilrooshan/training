@@ -166,7 +166,7 @@ box9=document.getElementById("box9").value;
          window.alert('Hurray.We got a 3 0 in a row.Player S won');
     }
     else if ( box2 === '0' && box5 === '0' &&  box8 === '0') {
-        document.getElementById('show').innerHTML="Hurray.We got a 3 0 in a row.Player S won";
+        document.getElementById('show').innerHTML="Hurray.We got a 3 0 in a row.Player 0 won";
         document.getElementById("box1").disabled = true;
         document.getElementById("box3").disabled = true;
         document.getElementById("box4").disabled = true;
