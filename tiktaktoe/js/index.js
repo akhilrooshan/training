@@ -212,6 +212,7 @@ box9=document.getElementById("box9").value;
     
 }
  var flag=1;
+ var h;
 function bttnDisable1() {
     if (flag == 1) {
         document.getElementById("box1").value="S";
