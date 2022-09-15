@@ -106,7 +106,7 @@ box9=document.getElementById("box9").value;
          window.alert('Hurray.We got a 3S in a row.Player S won');
     }
     else if ( box1 === '0' && box2 === '0' &&  box3 === '0') {
-        document.getElementById("show").innerHTML="Hurray.We got a 3 0 in a row.Player S won";
+        document.getElementById("show").innerHTML="Hurray.We got a 3 0 in a row.Player 0 won";
         document.getElementById("box4").disabled = true;
         document.getElementById("box5").disabled = true;
         document.getElementById("box6").disabled = true;
@@ -116,7 +116,7 @@ box9=document.getElementById("box9").value;
          window.alert('Hurray.We got a 3 0 in a row.Player S won');
     }
     else if ( box1 === '0' && box4 === '0' &&  box7 === '0') {
-        document.getElementById('show').innerHTML="Hurray.We got a 3 0 in a row.Player S won";
+        document.getElementById('show').innerHTML="Hurray.We got a 3 0 in a row.Player 0 won";
         document.getElementById("box2").disabled = true;
         document.getElementById("box3").disabled = true;
         document.getElementById("box5").disabled = true;
@@ -126,7 +126,7 @@ box9=document.getElementById("box9").value;
          window.alert('Hurray.We got a 3 0 in a row.Player S won');
     }
     else if ( box7 === '0' && box8 === '0' &&  box9 === '0') {
-        document.getElementById('show').innerHTML="Hurray.We got a 3 0 in a row.Player S won";
+        document.getElementById('show').innerHTML="Hurray.We got a 3 0 in a row.Player 0 won";
         document.getElementById("box1").disabled = true;
         document.getElementById("box2").disabled = true;
         document.getElementById("box3").disabled = true;
@@ -136,7 +136,7 @@ box9=document.getElementById("box9").value;
          window.alert('Hurray.We got a 3 0 in a row.Player S won');
     }
     else if ( box3 === '0' && box6 === '0' &&  box9 === '0') {
-        document.getElementById('show').innerHTML="Hurray.We got a 3 0 in a row.Player S won";
+        document.getElementById('show').innerHTML="Hurray.We got a 3 0 in a row.Player 0 won";
         document.getElementById("box1").disabled = true;
         document.getElementById("box2").disabled = true;
         document.getElementById("box4").disabled = true;
@@ -146,7 +146,7 @@ box9=document.getElementById("box9").value;
          window.alert('Hurray.We got a 3 0 in a row.Player S won');
     }
     else if ( box1 === '0' && box5 === '0' &&  box9 === '0') {
-        document.getElementById('show').innerHTML="Hurray.We got a 3 0 in a row.Player S won";
+        document.getElementById('show').innerHTML="Hurray.We got a 3 0 in a row.Player 0 won";
         document.getElementById("box2").disabled = true;
         document.getElementById("box3").disabled = true;
         document.getElementById("box4").disabled = true;
@@ -156,7 +156,7 @@ box9=document.getElementById("box9").value;
          window.alert('Hurray.We got a 3 0 in a row.Player S won');
     }
     else if ( box3 === '0' && box5 === '0' &&  box7 === '0') {
-        document.getElementById('show').innerHTML="Hurray.We got a 3 0 in a row.Player S won";
+        document.getElementById('show').innerHTML="Hurray.We got a 3 0 in a row.Player 0 won";
         document.getElementById("box1").disabled = true;
         document.getElementById("box2").disabled = true;
         document.getElementById("box4").disabled = true;
@@ -176,7 +176,7 @@ box9=document.getElementById("box9").value;
          window.alert('Hurray.We got a 3 0 in a row.Player S won');
     }
     else if ( box4 === '0' && box5 === '0' &&  box6 === '0') {
-        document.getElementById('show').innerHTML="Hurray.We got a 3 0 in a row.Player S won";
+        document.getElementById('show').innerHTML="Hurray.We got a 3 0 in a row.Player 0 won";
         document.getElementById("box1").disabled = true;
         document.getElementById("box2").disabled = true;
         document.getElementById("box3").disabled = true;
