@@ -1917,13 +1917,13 @@ const toprated=movies.filter(x=>
 
 const highestrating=movies.reduce((acc,curr)=>{
 
-    if (acc>curr.imdb.rating)
+    if (acc<curr.imdb.rating)
     {
         acc=curr.imdb.rating;
 
     }
     return acc
-},10)
+},0)
 
 
 const topRatedMovies=movies.filter(x=>{
@@ -1932,6 +1932,6 @@ const topRatedMovies=movies.filter(x=>{
 }).map(x=>
     {
 
-    return x.title+":"+x.imdb.rating
+    return x.title+x.imdb.rating+":"+x.plot
 })
 console.log(topRatedMovies)

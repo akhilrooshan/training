@@ -1,1 +1,1 @@
-typeof
+    console.log(categories)
