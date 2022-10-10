@@ -1,0 +1,71 @@
+
+:root{
+    --heading:green;
+    --reset:rgba(12, 12, 90, 0.781);
+    --boxcol:rgb(0, 255, 213);
+    --turn:rgba(114, 14, 14, 0.753);
+    --text:white;
+}
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+p{
+    text-align: center;
+    padding:10px 0px;   
+    font-size: 20px;
+}
+table{
+    font-size: 15px;
+    margin: auto;
+}
+input[type=button]{
+    width: 80px;
+    height:60px;
+    background-color: var(--heading);
+    color: var(--text);
+    border: none;
+    padding: 1rem;
+    font-size:1em;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    cursor: pointer;
+}
+input[type=text]{
+    background-color: var(--boxcol);
+    width: 100px;
+    height: 100px;
+    text-align: center;
+}
+.resetCol{
+    text-align: center;  
+      
+}
+.bttnRes{
+    padding: 10px;
+    color:var(--reset);
+    border: none;
+    background-color: var(--reset);
+    color:var(--text);
+    width: 10rem;
+    border-radius: 20px;
+    margin-top: 10px;
+    cursor: pointer;
+        }
+h2{
+    color: var(--heading);
+    text-align: center;
+    margin:1em;
+    padding:1em 0em;
+    font-size: 2rem;
+    text-decoration: underline overline;
+    text-transform: uppercase;
+}
+
+#show{
+    color: var(--turn);
+        font-size: 20px;
+}

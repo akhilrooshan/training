@@ -1,0 +1,103 @@
+:root {
+    --heading: rgb(255, 255, 255);
+    --table: black;
+    --th: rgb(185, 185, 238);
+    --td: rgb(228, 228, 125);
+    --pagebttn:rgb(247, 134, 59);
+    --pagebttnsec:#ccc;
+}
+
+body {
+
+    /* background-image: url("1.jpg");
+    background-repeat: no-repeat;
+  background-attachment: fixed;*/
+}
+
+table {
+    margin: 0 auto;
+    font-size: large;
+    border: 1px solid var(--table);
+}
+
+h1 {
+    text-align: center;
+    color: var(--heading);
+    font-size: xx-large;
+    font-family: 'Gill Sans',
+        'Gill Sans MT', ' Calibri',
+        'Trebuchet MS', 'sans-serif';
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+
+td {
+    background-color: var(--td);
+    border: 1px solid var(--table);
+}
+
+th,
+td {
+    font-weight: bold;
+    border: 1px solid var(--table);
+    padding: 10px;
+    text-align: center;
+}
+
+td {
+    font-weight: lighter;
+}
+
+th {
+    background-color: var(--th);
+}
+
+.pagination {
+    text-align: center;
+    margin: 30px 30px 60px;
+    user-select: none;
+}
+
+.pagination li {
+    display: inline-block;
+    margin: 5px;
+    box-shadow: 0 5px 25px rgb(1 1 1/10%);
+}
+
+.pagination li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2em;
+    line-height: 45px;
+}
+
+.previous-page,
+.next-page {
+    background: var(--pagebttn);
+    width: 80px;
+    border-radius: 45px;
+    cursor: pointer;
+}
+
+.previous-page:hover {
+    transform: translateX(-5px);
+}
+
+.next-page:hover {
+    transform: translateX(5px);
+}
+
+.current-page,
+.dots {
+    background: var(--pagebttnsec);
+    width: 45px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.active{
+    background: var(--pagebttn);
+    }
+    .disable{
+    background: var(--pagebttnsec);
+    }

@@ -1,0 +1,87 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Movie Reviews</title>
+
+    <!-- INCLUDING JQUERY-->
+    <script src="https://code.jquery.com/jquery-3.5.1.js">
+    </script>
+
+    <!-- CSS FOR STYLING THE PAGE -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section>
+        <h1>Movie Description</h1>
+
+        <!-- TABLE CONSTRUCTION-->
+        <table id='table'>
+            <!-- HEADING FORMATION -->
+            <tr>
+                <th>Title
+                </th>
+                <th>IMDB rating</th>
+                <th>Rotten Tomatoes rating</th>
+                <th>IMDB/Tomato combined rating
+                    <div id="myBtnContainer">
+                        <button class="btn active" onclick="filterSelection('topRated')"> Top rated</button>
+
+                    </div>
+                </th>
+                <th>View</th>
+            </tr>
+
+            <script>
+
+                $(document).ready(function () {
+
+
+                    $.getJSON("movies.json",
+                        function (myarr) {
+                            var cinema = '';
+
+                            $.each(myarr, function (key, value) {
+
+
+                                var comb = (value.imdb.rating + (value.tomatoes.viewer.rating * 2)) / 2;
+
+                                cinema += '<tr class="movieOrder">';
+                                cinema += '<td>' +
+                                    value.title + '</td>';
+
+                                cinema += '<td>' +
+                                    value.imdb.rating + '</td>';
+
+                                cinema += '<td>' +
+                                    value.tomatoes.viewer.rating + '</td>';
+
+                                cinema += '<td>' +
+                                    comb + '</td>';
+
+                                cinema += '<td>' +
+                                    value.plot + '</td>';
+
+                                cinema += '</tr>';
+
+                            });
+
+                            $('#table').append(cinema);
+                        });
+                });
+
+
+
+            </script>
+            <script src="index.js"></script>
+
+
+
+
+    </section>
+
+
+</body>
+
+</html>

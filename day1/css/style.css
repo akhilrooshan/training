@@ -1,0 +1,349 @@
+@media (max-width: 2560px) {
+  #container {
+    height: 100vh;
+    background-color: #aaffff;
+    display: grid;
+    place-content: center;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  #login-form-wrap {
+    background-color: #fff;
+    width: 40vw;
+    height: 50vh;
+    text-align: center;
+    padding: 10px 25px 90px 25px;
+    border-radius: 4px;
+    box-shadow: 0px 20px 30px 5px rgba(0, 0, 0, 0.3);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .img {
+    padding: 200px 10px 10px 10px;
+  }
+  h3 {
+    font-family: sans-serif;
+    font-weight: lighter;
+    font-size: 30px;
+  }
+  .test {
+    border-width: thin;
+    border-style: solid;
+    border-color: black;
+  }
+  input[type=submit] {
+    border: none;
+    background-color: #0673ad;
+    width: 85%;
+    padding: 10px 19px;
+    margin: 1px 0;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 22px;
+  }
+  .input-container { /* IE10 */
+    display: flex;
+    width: 90%;
+    margin-bottom: 15px;
+    margin-left: 28px;
+  }
+  .icon {
+    padding: 10px;
+    background: #e9ecef;
+    color: black;
+    min-width: 20px;
+    text-align: center;
+    border-radius: 7px 0px 0px 7px;
+    border: 1px solid #ccc;
+    max-height: 13px;
+  }
+  .input-field {
+    width: 100%;
+    padding: 10px;
+    outline: none;
+  }
+  input[type=text], select {
+    width: 90%;
+    padding: 12px 12px;
+    height: 35px;
+    margin-right: 20px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 0px 5px 5px 0px;
+    box-sizing: border-box;
+  }
+  input[type=password], select {
+    width: 90%;
+    padding: 12px 12px;
+    height: 35px;
+    margin-right: 20px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 0px 5px 5px 0px;
+    box-sizing: border-box;
+  }
+  .input-field:focus {
+    border: 2px solid #dcd7c5;
+  }
+}
+@media (max-width: 1440px) {
+  body {
+    border-left: 10px solid black;
+    border-right: 10px solid black;
+  }
+  #container {
+    height: 100vh;
+    background-color: #aaffff;
+    display: grid;
+    place-content: center;
+  }
+  #login-form-wrap {
+    background-color: #fff;
+    width: 90%;
+    height: 70%;
+    text-align: center;
+    padding: 10px 25px 90px 25px;
+    border-radius: 4px;
+    box-shadow: 0px 20px 30px 5px rgba(0, 0, 0, 0.3);
+  }
+  .img {
+    padding: 10px 10px 10px 10px;
+  }
+  h3 {
+    font-family: sans-serif;
+    font-weight: lighter;
+    font-size: 30px;
+  }
+  input[type=submit] {
+    border: none;
+    background-color: #0673ad;
+    width: 85%;
+    padding: 10px 19px;
+    margin: 1px 0;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  .input-container { /* IE10 */
+    display: flex;
+    width: 90%;
+    margin-bottom: 15px;
+    margin-left: 28px;
+  }
+  .icon {
+    padding: 10px;
+    background: #e9ecef;
+    color: black;
+    min-width: 20px;
+    text-align: center;
+    border-radius: 7px 0px 0px 7px;
+    border: 1px solid #ccc;
+    max-height: 13px;
+  }
+  .input-field {
+    width: 100%;
+    padding: 10px;
+    outline: none;
+  }
+  input[type=text], select {
+    width: 90%;
+    padding: 12px 12px;
+    height: 35px;
+    margin-right: 20px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 0px 5px 5px 0px;
+    box-sizing: border-box;
+  }
+  input[type=password], select {
+    width: 90%;
+    padding: 12px 12px;
+    height: 35px;
+    margin-right: 20px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 0px 5px 5px 0px;
+    box-sizing: border-box;
+  }
+  .input-field:focus {
+    border: 2px solid #dcd7c5;
+  }
+}
+@media (max-width: 426px) {
+  #container {
+    height: 100vh;
+    background-color: #aaffff;
+    display: grid;
+    place-content: center;
+    justify-content: center;
+    align-items: center;
+    border-left: 5px solid black;
+    border-right: 5px solid black;
+  }
+  #login-form-wrap {
+    background-color: #fff;
+    width: 90%;
+    height: 80vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px 10px 25px 25px;
+    border-radius: 4px;
+    box-shadow: 0px 20px 30px 5px rgba(0, 0, 0, 0.3);
+  }
+  .img {
+    padding: 10px 10px 10px 10px;
+  }
+  h3 {
+    font-family: sans-serif;
+    font-weight: lighter;
+    font-size: 30px;
+  }
+  .test {
+    border-width: thin;
+    border-style: solid;
+    border-color: black;
+  }
+  input[type=submit] {
+    border: none;
+    background-color: #0673ad;
+    padding: 10px 19px;
+    margin: 1px 0;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  .input-container { /* IE10 */
+    display: flex;
+    width: 90%;
+    margin-bottom: 15px;
+    margin-left: 28px;
+  }
+  .icon {
+    padding: 10px;
+    background: #e9ecef;
+    color: black;
+    min-width: 20px;
+    text-align: center;
+    border-radius: 7px 0px 0px 7px;
+    border: 1px solid #ccc;
+    max-height: 13px;
+  }
+  .input-field {
+    width: 100%;
+    padding: 10px;
+    outline: none;
+  }
+  input[type=text], select {
+    width: 90%;
+    padding: 12px 12px;
+    height: 35px;
+    margin-right: 20px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 0px 5px 5px 0px;
+    box-sizing: border-box;
+  }
+  input[type=password], select {
+    width: 90%;
+    padding: 12px 12px;
+    height: 35px;
+    margin-right: 20px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 0px 5px 5px 0px;
+    box-sizing: border-box;
+  }
+  .input-field:focus {
+    border: 2px solid #dcd7c5;
+  }
+}
+@media (max-width: 768px) {
+  #container {
+    height: 100vh;
+    background-color: #aaffff;
+    display: grid;
+    place-content: center;
+    border-left: 10px solid black;
+    border-right: 10px solid black;
+  }
+  #login-form-wrap {
+    background-color: #fff;
+    width: 80vw;
+    height: 70vh;
+    text-align: center;
+    padding: 10px 25px 90px 25px;
+    border-radius: 4px;
+    box-shadow: 0px 20px 30px 5px rgba(0, 0, 0, 0.3);
+  }
+  .img {
+    padding: 10px 10px 10px 10px;
+  }
+  h3 {
+    font-family: sans-serif;
+    font-weight: lighter;
+    font-size: 30px;
+  }
+  .test {
+    border-width: thin;
+    border-style: solid;
+    border-color: black;
+  }
+  input[type=submit] {
+    border: none;
+    background-color: #0673ad;
+    width: 87%;
+    padding: 10px 19px;
+    margin: 1px 0;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 3px;
+  }
+  .input-container { /* IE10 */
+    display: flex;
+    width: 90%;
+    margin-bottom: 15px;
+    margin-left: 28px;
+  }
+  .icon {
+    padding: 10px;
+    background: #e9ecef;
+    color: black;
+    min-width: 20px;
+    text-align: center;
+    border-radius: 7px 0px 0px 7px;
+    border: 1px solid #ccc;
+    max-height: 13px;
+  }
+  .input-field {
+    width: 100%;
+    padding: 10px;
+    outline: none;
+  }
+  input[type=text], select {
+    width: 90%;
+    padding: 12px 12px;
+    height: 35px;
+    margin-right: 20px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 0px 5px 5px 0px;
+    box-sizing: border-box;
+  }
+  input[type=password], select {
+    width: 90%;
+    padding: 12px 12px;
+    height: 35px;
+    margin-right: 20px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 0px 5px 5px 0px;
+    box-sizing: border-box;
+  }
+  .input-field:focus {
+    border: 2px solid #dcd7c5;
+  }
+}
+.fa fa-user icon {
+  color: black;
+}/*# sourceMappingURL=style.css.map */

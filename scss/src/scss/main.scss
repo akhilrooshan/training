@@ -1,0 +1,45 @@
+@import "./variables";
+
+@function weight($weight-name) {
+    @return map-get($font-weights, $weight-name);
+    }
+
+@mixin flexcenter($direction){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: $direction;
+}
+
+@mixin theme($light:true)
+{
+    @if $light{
+        background:lighten ($primary-color,100%);
+        color:darken($text-color,100%);
+    }
+}
+
+body {
+background: $primary-color;
+color:$text-color;
+font-weight: weight(bold);
+
+}
+
+
+.main {
+    width: 70%;
+    margin: 0 auto;
+    @include flexcenter(row);
+
+
+    p{
+        font-weight: map-get($font-weights, bold);
+    }
+    p:hover{
+        color:$accent-color;
+    }
+}
+
+
+
